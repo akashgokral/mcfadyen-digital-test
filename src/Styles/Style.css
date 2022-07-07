@@ -1,0 +1,119 @@
+
+/* NAVBAR CSS */
+.mobile__nav{
+    display: flex;
+    flex-direction: row-reverse !important;
+}
+
+
+.nav_li{
+    margin: 0px 5px;
+    font-size: 15px;
+}
+.nav_li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* LEFT SIDE CSS */
+
+.left{
+    position: fixed;
+    top:65px;
+    width: 300px;
+}
+
+.left_ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+.left_li{
+    margin: 0px 8px;
+}
+.left_li:hover{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+
+/* Center CSS */
+.center{
+    margin-top: 75px;
+}
+.first_img{
+    position: relative;
+}
+.heart{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.brand p{
+    text-decoration: underline;
+    margin: 0px 15px;
+}
+
+/* RIGHT SIDE CSS */
+.right__div{
+    overflow: auto;
+    position: fixed;
+    top: 65px;
+    right: 0;
+}
+
+
+
+.right_title h6{
+font-size: 30px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+line-height: 96%;
+letter-spacing: -0.04em;
+text-transform: uppercase;
+color: #000000;
+}
+
+.cart_img img{ 
+    width: 100px !important;
+    height: 110px !important;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.cart_btn{
+background-color: black !important;
+border-radius: 30px !important;
+}
+
+/* SIZE CSS */
+
+.size_details{
+    border: 1px solid rgb(230, 221, 221);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80px !important;
+    height: 30px !important;
+    border-radius: 30px;
+}
+.size_details:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+
+/* FOOTER CSS */
+
+.footer_text{
+    display: flex;
+    justify-content: center;
+    width: 100% ;
+}
+.footer_text p{
+    width: 650px;
+    font-size: 18px;
+    font-weight: 600;
+}
