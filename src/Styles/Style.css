@@ -14,6 +14,9 @@
     font-weight: bold;
     cursor: pointer;
 }
+.cart_btn{
+ background: transparent !important;
+}
 
 /* LEFT SIDE CSS */
 
@@ -77,10 +80,15 @@ color: #000000;
 }
 
 .cart_img img{ 
-    width: 100px !important;
-    height: 110px !important;
+    width: 80px !important;
+    height: 80px !important;
     border: 1px solid black;
     cursor: pointer;
+}
+
+.active{
+    background: black !important;
+    color: white;
 }
 
 .cart_btn{
@@ -95,11 +103,12 @@ border-radius: 30px !important;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 80px !important;
+    width: 70px !important;
     height: 30px !important;
     border-radius: 30px;
+    margin-right: 20px;
 }
-.size_details:hover{
+ .size_details:hover {
     background-color: black;
     color: white;
     cursor: pointer;
